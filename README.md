@@ -19,7 +19,7 @@ Once the tokenization is complete, a new model is created using nanoGPT, and is 
 
 The training process used an NVIDIA Tesla V100, using Google’s cloud platform (renting a gpu server with free credits). Given the maximum GPU memory of around 15GB, the size of the transformer model is relatively small (only 1 GPU was allowed for my server). 
 
-The model is stored in huggingface under jwb23/music-lm.
+The model is stored in huggingface under [jwb23/music-lm](https://huggingface.co/jwb23/music-lm/tree/main).
 
 After training for about 24 hours, some samples are included in this github repo.
 
