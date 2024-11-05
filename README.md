@@ -15,17 +15,13 @@ The Maestro dataset contains classical western repertoire from the 17th to early
 
 Miditok tokenizes music, considering notes characterized by their pitch, duration, and volume. It can be thought of as tokenizing chords as “words”. Miditok uses BPE, as well as the TSD algorithm.
 
-Once the tokenization is complete, a new model is created using nanoGPT, and is trained using the Maestro dataset. 
+Once the tokenization is complete, a new model is created using nanoGPT, and is trained using the Maestro dataset. The training config file is included here.
 
 The training process used an NVIDIA Tesla V100, using Google’s cloud platform (renting a gpu server with free credits). Given the maximum GPU memory of around 15GB, the size of the transformer model is relatively small (only 1 GPU was allowed for my server). 
 
 The model is stored in huggingface under jwb23/music-lm.
 
-After training for about 24 hours, here are some samples:
-
-[x]
-[y]
-[z]
+After training for about 24 hours, some samples are included in this github repo.
 
 Even with significant limitations on the size of the model as well as the size of the dataset, this sounds surprisingly good! 
 
