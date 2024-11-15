@@ -1,4 +1,4 @@
-# Music-LM
+# Music as a LM
 
 Most say that music is a universal language. That is, every culture has developed their own kind of music, and each song or piece typically containing messaging of some emotion.
 Why not try modeling music as another type of language? 
