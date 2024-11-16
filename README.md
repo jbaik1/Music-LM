@@ -22,6 +22,7 @@ The training process used an NVIDIA Tesla V100, using Google’s cloud platform 
 The model is stored in huggingface under [jwb23/music-lm](https://huggingface.co/jwb23/music-lm/tree/main).
 
 After training for about 24 hours, some samples are included in this github repo.
+The sound quality can vary depending on what software you are using to open the midi files, but the notes are the same.
 
 Even with significant limitations on the size of the model as well as the size of the dataset, this sounds surprisingly good! 
 
