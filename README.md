@@ -1,6 +1,7 @@
-# Music as a LM
+# Modeling Music with a NLP Language Model
 
-Most say that music is a universal language. That is, every culture has developed their own kind of music, and each song or piece typically containing messaging of some emotion.
+Music is often considered as a universal language. That is, every culture has developed their own kind of music, and we eventually learn to enjoy various genres, even if some of them feel foreign at first.
+
 Why not try modeling music as another type of language? 
 
 A lot of research has already been done for this topic, and for this project I used a lot of great tools that others have made available:
@@ -9,7 +10,7 @@ The [Maestro](https://magenta.tensorflow.org/datasets/maestro) dataset
 
 The [Miditok](https://github.com/Natooz/MidiTok) python package
 
-[nanoGPT](https://github.com/karpathy/nanoGPT) to train a new model without having to create a GPT model from scratch.
+[nanoGPT](https://github.com/karpathy/nanoGPT) to train a new model without having to recreate a GPT model from scratch.
 
 The Maestro dataset contains classical western repertoire from the 17th to early 20th century. It has around 1276 pieces.
 
@@ -30,7 +31,9 @@ Even with significant limitations on the size of the model as well as the size o
 
 Given a large amount of data for classic western music, it might be possible to create some sort of a “pre-trained” model. When fine-tuning it for a specific composer, the model may be able to generate music more in the style of that composer. 
 
+A hypothesis is that the music will have to be related to eachother to have better results. Classical, Jazz, Rock, etc. share similar western style chord progressions. Non-western music ([world music](https://en.wikipedia.org/wiki/World_music)) may be too dissimilar. Even within classical western music, atonal music from composers like Schoenberg are quite different from music from Mozart.
+
 ### Music Style Transfer 
-Style transfer has been studied in vision and generative AI. An analogous subject is text style transfer. Given that we are able to tokenize music and train ML models as a result, this may enable us to do some version of “music style transfer”. For example, playing happy birthday in the style of Bach. 
+Style transfer has been studied in vision and generative AI. An analogous subject within NLP is text style transfer. Given that we are able to tokenize music and train ML models as a result, this may enable us to do some version of “music style transfer”. For example, playing happy birthday in the style of Bach. 
 
 

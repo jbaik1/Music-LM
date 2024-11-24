@@ -1,3 +1,6 @@
+# Download nanoGPT https://github.com/karpathy/nanoGPT
+# A modification of one of their config/ files
+
 # config for maestro dataset
 
 out_dir = 'maestro_augment'
