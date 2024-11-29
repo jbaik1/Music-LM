@@ -1,4 +1,4 @@
-# Modeling Music with a NLP Language Model
+# Music Language Model
 
 Music is often considered as a universal language. That is, every culture has developed their own kind of music, and we eventually learn to enjoy various genres, even if some of them feel foreign at first.
 
